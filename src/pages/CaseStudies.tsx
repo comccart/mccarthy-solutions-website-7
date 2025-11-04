@@ -372,7 +372,7 @@ const CaseStudies = () => {
 
       {/* Footer */}
       <footer className="border-t border-border py-16 bg-muted/30">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-6">
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div>
               <div className="flex items-center gap-2 mb-4">
