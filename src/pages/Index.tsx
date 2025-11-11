@@ -159,8 +159,11 @@ const Index = () => {
             </div>
 
             <div className="flex items-center gap-4">
-              <Button variant="default" size="lg" className="hidden md:inline-flex bg-primary text-primary-foreground hover:bg-primary/90 shadow-lg" onClick={() => window.open('https://calendar.app.google/PaVwZ8ZxYX5SVBJT8', '_blank')}>
-                Book free intro call
+              <Button variant="default" size="lg" className="hidden md:inline-flex bg-primary text-primary-foreground hover:bg-primary/90 shadow-lg" onClick={(e) => {
+                e.preventDefault();
+                document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
+              }}>
+                Get in touch
               </Button>
               
               <Drawer open={mobileMenuOpen} onOpenChange={setMobileMenuOpen}>
@@ -189,11 +192,14 @@ const Index = () => {
                     <Link to="/case-studies" className="text-lg text-foreground hover:text-primary transition-colors py-2" onClick={() => setMobileMenuOpen(false)}>
                       Case Studies
                     </Link>
-                    <Button variant="default" size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 shadow-lg mt-4" onClick={() => {
-                    window.open('https://calendar.app.google/PaVwZ8ZxYX5SVBJT8', '_blank');
-                    setMobileMenuOpen(false);
-                  }}>
-                      Book free intro call
+                    <Button variant="default" size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 shadow-lg mt-4" onClick={(e) => {
+                      e.preventDefault();
+                      setMobileMenuOpen(false);
+                      setTimeout(() => {
+                        document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
+                      }, 300);
+                    }}>
+                      Get in touch
                     </Button>
                   </div>
                 </DrawerContent>
@@ -242,8 +248,11 @@ const Index = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-wrap items-start gap-4 mb-16">
-            <Button size="lg" variant="default" className="gap-2 bg-primary text-primary-foreground hover:bg-primary/90" onClick={() => window.open('https://calendar.app.google/PaVwZ8ZxYX5SVBJT8', '_blank')}>
-              Book free intro call
+            <Button size="lg" variant="default" className="gap-2 bg-primary text-primary-foreground hover:bg-primary/90" onClick={(e) => {
+              e.preventDefault();
+              document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
+            }}>
+              Get in touch
             </Button>
           </div>
 
@@ -467,8 +476,11 @@ const Index = () => {
           </div>
 
           <div className="text-center mt-12">
-            <Button size="lg" variant="default" className="bg-primary text-primary-foreground hover:bg-primary/90 gap-2" onClick={() => window.open('https://calendar.app.google/PaVwZ8ZxYX5SVBJT8', '_blank')}>
-              Book free intro call
+            <Button size="lg" variant="default" className="bg-primary text-primary-foreground hover:bg-primary/90 gap-2" onClick={(e) => {
+              e.preventDefault();
+              document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
+            }}>
+              Get in touch
               <ArrowRight className="w-4 h-4" />
             </Button>
           </div>
@@ -505,8 +517,11 @@ const Index = () => {
           </div>
 
           <div className="flex flex-wrap justify-center gap-4">
-            <Button size="lg" variant="default" className="gap-2 bg-primary text-primary-foreground hover:bg-primary/90" onClick={() => window.open('https://calendar.app.google/PaVwZ8ZxYX5SVBJT8', '_blank')}>
-              Book free intro call
+            <Button size="lg" variant="default" className="gap-2 bg-primary text-primary-foreground hover:bg-primary/90" onClick={(e) => {
+              e.preventDefault();
+              document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
+            }}>
+              Get in touch
               <ArrowRight className="w-4 h-4" />
             </Button>
           </div>
@@ -646,7 +661,7 @@ const Index = () => {
           color: '#F5F1ED',
           opacity: 0.9
         }}>
-            Book a free strategy call. We'll talk about your work and where AI can help.
+            Send us a message about your work and where AI can help, or book a call directly below.
           </p>
           
           {/* Contact Form */}
