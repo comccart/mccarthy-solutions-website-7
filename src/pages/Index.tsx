@@ -651,12 +651,10 @@ const Index = () => {
           
           {/* Contact Form */}
           <div className="mt-8 mb-6">
-            <p className="text-sm font-medium mb-4" style={{
+            <p style={{
             color: '#F5F1ED',
             opacity: 0.9
-          }}>
-              Or send us a quick message:
-            </p>
+          }} className="font-medium mb-4 text-lg text-stone-50">Send us a quick message:</p>
             
             <form action="https://formspree.io/f/mjkjvoro" method="POST" className="max-w-md mx-auto p-6 rounded-xl" style={{
             backgroundColor: 'rgba(245, 241, 237, 0.05)',
@@ -718,10 +716,10 @@ const Index = () => {
           </div>
 
           {/* Divider Text */}
-          <p className="text-sm font-medium my-6" style={{
+          <p style={{
           color: '#F5F1ED',
           opacity: 0.7
-        }}>
+        }} className="font-medium my-6 text-lg text-stone-50">
             Or book a call directly:
           </p>
           
