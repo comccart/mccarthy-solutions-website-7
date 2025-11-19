@@ -167,9 +167,15 @@ const AIStrategyThinkClearly = () => {
               Speed’s easy. Quality’s harder. Don’t stop at faster output—aim for sharper thinking.
               <br />
               <br />
-              That might look like: - Running the numbers before you bet the quarter - Turning rough thoughts into sharp
-              decisions - Getting from idea to action before the mood changes - Giving your teams a shared brain, not
-              another dusty Notion doc
+              That might look like:
+              <br />
+              <br />
+              <ul>
+                <li>Running the numbers before you bet the quarter</li>
+                <li>Turning rough thoughts into sharp decisions</li>
+                <li>Getting from idea to action before the mood changes</li>
+                <li>Giving your teams a shared brain, not another dusty Notion doc</li>
+              </ul>
               <br />
               <br />
               Smart strategy relies on clear thinking and pattern-spotting. AI can support both, if you stop treating it
@@ -190,9 +196,13 @@ const AIStrategyThinkClearly = () => {
               <br />
               <br />
               <strong>One last thing</strong>
-              Leaders who win with AI treat it like a thinking partner. Not a shortcut. Not a gimmick. Not a toy. Get
-              good at thinking with it. Build habits that actually stick. Grow a team that’s ready for whatever strange,
-              brilliant thing comes next.
+              <br />
+              <br />
+              Leaders who win with AI treat it like a thinking partner. Not a shortcut. Not a gimmick. Not a toy.
+              <br />
+              <br />
+              Get good at thinking with it. Build habits that actually stick. Grow a team that’s ready for whatever
+              strange, brilliant thing comes next.
             </p>
 
             {/* Content area for future article */}
