@@ -139,9 +139,9 @@ const AITrainingLeadershipSkill = () => {
               Training
             </Badge>
             <h1 className="text-4xl md:text-5xl font-bold mb-8 text-foreground">
-              AI Literacy Is Now a Leadership Skill
+              AI Literacy is now a leadership skill.
             </h1>
-            <p className="text-lg text-muted-foreground mb-12">
+            <p className="text-lg text-muted-foreground mb-12 leading-relaxed space-y-6">
               <p>
                 Most people think AI training is about prompts. It’s not. It’s about confidence, judgement, and knowing
                 how to work in a world where information isn’t scarce anymore.
@@ -154,7 +154,7 @@ const AITrainingLeadershipSkill = () => {
 
               <p>Time to fix that.</p>
 
-              <h3 className="font-semibold">1. People think they need to know far more than they do</h3>
+              <h3 className="font-semibold text-xl">1. People think they need to know far more than they do</h3>
 
               <p>
                 Most professionals imagine they need to learn code, master a stack of tools, or sign up for a marathon
@@ -171,7 +171,9 @@ const AITrainingLeadershipSkill = () => {
 
               <p>Once people see this, resistance fades. Curiosity shows up. Fear packs its bags.</p>
 
-              <h3 className="font-semibold">2. AI isn’t replacing people. It’s replacing the bits they dread</h3>
+              <h3 className="font-semibold text-xl">
+                2. AI isn’t replacing people. It’s replacing the bits they dread
+              </h3>
 
               <p>
                 Email. Admin. Drafting. Rewriting. Digging for information that never seems to be where it should be. No
@@ -183,7 +185,7 @@ const AITrainingLeadershipSkill = () => {
                 judgement and context and real conversations. When teams feel that lift, the whole mood shifts.
               </p>
 
-              <h3 className="font-semibold">3. Training has to be practical or it won’t stick</h3>
+              <h3 className="font-semibold text-xl">3. Training has to be practical or it won’t stick</h3>
 
               <p>No one wants theory for theory’s sake. They want to know how this helps them get through the week.</p>
 
@@ -197,7 +199,7 @@ const AITrainingLeadershipSkill = () => {
                 fast.
               </p>
 
-              <h3 className="font-semibold">Final thought</h3>
+              <h3 className="font-semibold text-xl">Final thought</h3>
 
               <p>
                 You can’t build an AI-ready organisation without people who know how to work with it. Training isn’t a
