@@ -208,10 +208,20 @@ const AIStrategyThinkClearly = () => {
         </div>
       </main>
 
-      {/* Separator */}
-      <div className="container mx-auto px-4 py-16">
-        <hr className="border-t border-border" />
-      </div>
+      {/* CTA Section */}
+      <section className="py-20 bg-gradient-to-br from-primary/10 via-accent/10 to-secondary/10">
+        <div className="container mx-auto px-4 text-center max-w-3xl">
+          <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-4">
+            Let's talk about how AI can work for you
+          </h2>
+          <p className="text-lg text-muted-foreground mb-8">
+            Ready to explore your next step? Contact us now.
+          </p>
+          <Button size="lg" asChild>
+            <a href="https://calendar.app.google/KxxmEvbPQfzcdLFP7" target="_blank" rel="noopener noreferrer">Get in touch</a>
+          </Button>
+        </div>
+      </section>
 
       {/* Footer */}
       <footer className="bg-space-cadet text-isabeline py-16">
