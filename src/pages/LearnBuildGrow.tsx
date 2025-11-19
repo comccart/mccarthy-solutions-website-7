@@ -6,12 +6,9 @@ import { Menu, ArrowRight } from "lucide-react";
 import { useState } from "react";
 import { Drawer, DrawerClose, DrawerContent, DrawerHeader, DrawerTitle, DrawerTrigger } from "@/components/ui/drawer";
 import chevronLogo from "@/assets/chevron-logo.png";
-
 const LearnBuildGrow = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-
-  return (
-    <div className="min-h-screen bg-background">
+  return <div className="min-h-screen bg-background">
       {/* Navigation */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-md border-b border-border">
         <div className="container mx-auto px-6 py-4">
@@ -31,12 +28,7 @@ const LearnBuildGrow = () => {
             </div>
 
             <div className="flex items-center gap-4">
-              <Button 
-                variant="default" 
-                size="lg" 
-                className="hidden md:inline-flex bg-primary text-primary-foreground hover:bg-primary/90 shadow-lg" 
-                onClick={() => window.open('https://calendar.app.google/PaVwZ8ZxYX5SVBJT8', '_blank')}
-              >
+              <Button variant="default" size="lg" className="hidden md:inline-flex bg-primary text-primary-foreground hover:bg-primary/90 shadow-lg" onClick={() => window.open('https://calendar.app.google/PaVwZ8ZxYX5SVBJT8', '_blank')}>
                 Book free intro call
               </Button>
               
@@ -69,15 +61,10 @@ const LearnBuildGrow = () => {
                     <Link to="/case-studies" className="text-lg text-foreground hover:text-primary transition-colors py-2" onClick={() => setMobileMenuOpen(false)}>
                       Case Studies
                     </Link>
-                    <Button 
-                      variant="default" 
-                      size="lg" 
-                      className="bg-primary text-primary-foreground hover:bg-primary/90 shadow-lg mt-4" 
-                      onClick={() => {
-                        window.open('https://calendar.app.google/PaVwZ8ZxYX5SVBJT8', '_blank');
-                        setMobileMenuOpen(false);
-                      }}
-                    >
+                    <Button variant="default" size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 shadow-lg mt-4" onClick={() => {
+                    window.open('https://calendar.app.google/PaVwZ8ZxYX5SVBJT8', '_blank');
+                    setMobileMenuOpen(false);
+                  }}>
                       Book free intro call
                     </Button>
                   </div>
@@ -115,7 +102,7 @@ const LearnBuildGrow = () => {
                     Strategy
                   </Badge>
                   <CardTitle className="text-2xl text-foreground">
-                    Think Clearly in an AI-Shaped World
+                    Think clearly in an AI-shaped World
                   </CardTitle>
                   <CardDescription className="text-base">
                     Most teams rush to tools. Strategy starts earlier. This article looks at how leaders can use AI to sharpen thinking, make better choices, and focus on the work that actually moves the needle.
@@ -138,7 +125,7 @@ const LearnBuildGrow = () => {
                     Training
                   </Badge>
                   <CardTitle className="text-2xl text-foreground">
-                    AI Literacy Is Now a Leadership Skill
+                    AI Literacy is now a leadership skill
                   </CardTitle>
                   <CardDescription className="text-base">
                     AI training is not about prompts. It is about confidence, judgement, and clear workflows. This article shows how to teach teams to work with AI without fear, jargon, or overwhelm.
@@ -161,7 +148,7 @@ const LearnBuildGrow = () => {
                     Implementation
                   </Badge>
                   <CardTitle className="text-2xl text-foreground">
-                    Build AI Systems That Make Work Lighter
+                    Build AI Systems that make work lighter
                   </CardTitle>
                   <CardDescription className="text-base">
                     Most organisations do not need more tools. They need simple systems that fit into everyday work. This article explains how to design AI workflows that remove friction and support people instead of replacing them.
@@ -181,8 +168,6 @@ const LearnBuildGrow = () => {
           </div>
         </div>
       </section>
-    </div>
-  );
+    </div>;
 };
-
 export default LearnBuildGrow;
