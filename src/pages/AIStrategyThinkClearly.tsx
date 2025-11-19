@@ -134,8 +134,8 @@ const AIStrategyThinkClearly = () => {
               The leaders who excel with Al think differently, not faster.
             </h1>
             <p className="text-lg text-muted-foreground mb-12">
-              Most teams jump straight into tools. Leaders can’t afford to. The real edge shows up earlier—before anyone
-              even types a prompt.
+              Most teams jump straight into tools. Leaders can’t afford to. The real edge shows up earlier, before
+              anyone even types a prompt.
               <br />
               <br />
               The best leaders I work with all share one thing. They treat AI as a long game. No fads, no fireworks.
