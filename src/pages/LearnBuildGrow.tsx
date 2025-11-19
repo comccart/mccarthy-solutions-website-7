@@ -124,9 +124,7 @@ const LearnBuildGrow = () => {
                   <Badge variant="secondary" className="mb-4 w-fit">
                     Training
                   </Badge>
-                  <CardTitle className="text-2xl text-foreground">
-                    AI Literacy is now a leadership skill
-                  </CardTitle>
+                  <CardTitle className="text-2xl text-foreground">AI Literacy is now a leadership skill.</CardTitle>
                   <CardDescription className="text-base">
                     AI training is not about prompts. It is about confidence, judgement, and clear workflows. This article shows how to teach teams to work with AI without fear, jargon, or overwhelm.
                   </CardDescription>
