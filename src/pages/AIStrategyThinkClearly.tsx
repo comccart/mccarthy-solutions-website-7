@@ -146,19 +146,56 @@ const AIStrategyThinkClearly = () => {
               If you want your organisation to grow with AI—not just flail after it—start with these three questions.
               <br />
               <br />
-              **1. What problem are we actually trying to solve?** Plenty of AI projects die on impact because someone
-              decided, “we should be doing something with AI.” That’s not a plan. That’s a panic. Instead, look for the
-              friction. What’s slowing your team down? Where’s the work that matters but always gets squeezed? AI earns
-              its place when it takes the grind out of good judgement. Not when it’s stuck on the side of something that
-              already sort of works. **2. Where does AI make us better, not just quicker?** Speed’s easy. Quality’s
-              harder. Don’t stop at faster output—aim for sharper thinking. That might look like: - Running the numbers
-              before you bet the quarter - Turning rough thoughts into sharp decisions - Getting from idea to action
-              before the mood changes - Giving your teams a shared brain, not another dusty Notion doc Smart strategy
-              relies on clear thinking and pattern-spotting. AI can support both, if you stop treating it like a fancy
-              calculator. **3. Are we building capability—or just another crutch?** If your team falls over when the
-              AI’s off, you've built the wrong system. The right setup helps people think better, not think less. It
-              should stretch judgement, not replace it. This isn’t about writing an AI strategy doc and calling it done.
-              It’s about rewiring how your team learns, thinks, and decides—week in, week out. **One last thing**
+              <strong>1. What problem are we actually trying to solve?</strong>
+              <br />
+              <br />
+              Plenty of AI projects die on impact because someone decided, “we should be doing something with AI.”
+              That’s not a plan. That’s a panic.
+              <br />
+              <br />
+              Instead, look for the friction. What’s slowing your team down? Where’s the work that matters but always
+              gets squeezed?
+              <br />
+              <br />
+              AI earns its place when it takes the grind out of good judgement. Not when it’s stuck on the side of
+              something that already sort of works.
+              <br />
+              <br />
+              <strong>2. Where does AI make us better, not just quicker?</strong>
+              <br />
+              <br />
+              Speed’s easy. Quality’s harder. Don’t stop at faster output—aim for sharper thinking.
+              <br />
+              <br />
+              That might look like: 
+              - Running the numbers before you bet the quarter 
+              - Turning rough thoughts into sharp decisions 
+              - Getting from idea
+              to action before the mood changes 
+              - Giving your teams a shared brain, not another dusty Notion doc
+              <br />
+              <br />
+              Smart
+              strategy relies on clear thinking and pattern-spotting. AI can support both, if you stop treating it like
+              a fancy calculator.
+              <br />
+              <br />
+              <strong>3. Are we building capability—or just another crutch?</strong>
+              <br />
+              <br />
+              If your team falls over when
+              the AI’s off, you've built the wrong system.
+              <br />
+              <br />
+              The right setup helps people think better, not think less. It
+              should stretch judgement, not replace it.
+              <br />
+              <br />
+              This isn’t about writing an AI strategy doc and calling it done.
+              It’s about rewiring how your team learns, thinks, and decides—week in, week out.
+              <br />
+              <br />
+              <srtong>One last thing</strong>
               Leaders who win with AI treat it like a thinking partner. Not a shortcut. Not a gimmick. Not a toy. Get
               good at thinking with it. Build habits that actually stick. Grow a team that’s ready for whatever strange,
               brilliant thing comes next.
