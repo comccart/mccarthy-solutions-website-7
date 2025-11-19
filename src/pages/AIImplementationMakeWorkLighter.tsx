@@ -19,26 +19,38 @@ const AIImplementationMakeWorkLighter = () => {
               <img src={chevronLogo} alt="McCarthy Solutions" className="w-8 h-8" />
               <div className="text-2xl font-bold text-foreground">McCarthy Solutions</div>
             </Link>
-            
+
             <div className="hidden md:flex items-center gap-8">
-              <Link to="/#services" className="text-foreground hover:text-accent transition-colors">Services</Link>
-              <Link to="/#process" className="text-foreground hover:text-accent transition-colors">Process</Link>
-              <Link to="/#results" className="text-foreground hover:text-accent transition-colors">Results</Link>
-              <Link to="/#testimonials" className="text-foreground hover:text-accent transition-colors">Testimonials</Link>
-              <Link to="/learn-build-grow-with-ai" className="text-accent font-semibold transition-colors">Learn</Link>
-              <Link to="/case-studies" className="text-foreground hover:text-accent transition-colors">Case Studies</Link>
+              <Link to="/#services" className="text-foreground hover:text-accent transition-colors">
+                Services
+              </Link>
+              <Link to="/#process" className="text-foreground hover:text-accent transition-colors">
+                Process
+              </Link>
+              <Link to="/#results" className="text-foreground hover:text-accent transition-colors">
+                Results
+              </Link>
+              <Link to="/#testimonials" className="text-foreground hover:text-accent transition-colors">
+                Testimonials
+              </Link>
+              <Link to="/learn-build-grow-with-ai" className="text-accent font-semibold transition-colors">
+                Learn
+              </Link>
+              <Link to="/case-studies" className="text-foreground hover:text-accent transition-colors">
+                Case Studies
+              </Link>
             </div>
 
             <div className="flex items-center gap-4">
-              <Button 
-                variant="default" 
-                size="lg" 
-                className="hidden md:inline-flex bg-primary text-primary-foreground hover:bg-primary/90 shadow-lg" 
-                onClick={() => window.open('https://calendar.app.google/PaVwZ8ZxYX5SVBJT8', '_blank')}
+              <Button
+                variant="default"
+                size="lg"
+                className="hidden md:inline-flex bg-primary text-primary-foreground hover:bg-primary/90 shadow-lg"
+                onClick={() => window.open("https://calendar.app.google/PaVwZ8ZxYX5SVBJT8", "_blank")}
               >
                 Book free intro call
               </Button>
-              
+
               <Drawer open={mobileMenuOpen} onOpenChange={setMobileMenuOpen}>
                 <DrawerTrigger asChild>
                   <Button variant="ghost" size="icon" className="md:hidden">
@@ -50,30 +62,54 @@ const AIImplementationMakeWorkLighter = () => {
                     <DrawerTitle>Menu</DrawerTitle>
                   </DrawerHeader>
                   <div className="flex flex-col gap-4 p-4">
-                    <Link to="/#services" className="text-lg text-foreground hover:text-primary transition-colors py-2" onClick={() => setMobileMenuOpen(false)}>
+                    <Link
+                      to="/#services"
+                      className="text-lg text-foreground hover:text-primary transition-colors py-2"
+                      onClick={() => setMobileMenuOpen(false)}
+                    >
                       Services
                     </Link>
-                    <Link to="/#process" className="text-lg text-foreground hover:text-primary transition-colors py-2" onClick={() => setMobileMenuOpen(false)}>
+                    <Link
+                      to="/#process"
+                      className="text-lg text-foreground hover:text-primary transition-colors py-2"
+                      onClick={() => setMobileMenuOpen(false)}
+                    >
                       Process
                     </Link>
-                    <Link to="/#results" className="text-lg text-foreground hover:text-primary transition-colors py-2" onClick={() => setMobileMenuOpen(false)}>
+                    <Link
+                      to="/#results"
+                      className="text-lg text-foreground hover:text-primary transition-colors py-2"
+                      onClick={() => setMobileMenuOpen(false)}
+                    >
                       Results
                     </Link>
-                    <Link to="/#testimonials" className="text-lg text-foreground hover:text-primary transition-colors py-2" onClick={() => setMobileMenuOpen(false)}>
+                    <Link
+                      to="/#testimonials"
+                      className="text-lg text-foreground hover:text-primary transition-colors py-2"
+                      onClick={() => setMobileMenuOpen(false)}
+                    >
                       Testimonials
                     </Link>
-                    <Link to="/learn-build-grow-with-ai" className="text-lg text-primary font-semibold transition-colors py-2" onClick={() => setMobileMenuOpen(false)}>
+                    <Link
+                      to="/learn-build-grow-with-ai"
+                      className="text-lg text-primary font-semibold transition-colors py-2"
+                      onClick={() => setMobileMenuOpen(false)}
+                    >
                       Learn
                     </Link>
-                    <Link to="/case-studies" className="text-lg text-foreground hover:text-primary transition-colors py-2" onClick={() => setMobileMenuOpen(false)}>
+                    <Link
+                      to="/case-studies"
+                      className="text-lg text-foreground hover:text-primary transition-colors py-2"
+                      onClick={() => setMobileMenuOpen(false)}
+                    >
                       Case Studies
                     </Link>
-                    <Button 
-                      variant="default" 
-                      size="lg" 
-                      className="bg-primary text-primary-foreground hover:bg-primary/90 shadow-lg mt-4" 
+                    <Button
+                      variant="default"
+                      size="lg"
+                      className="bg-primary text-primary-foreground hover:bg-primary/90 shadow-lg mt-4"
                       onClick={() => {
-                        window.open('https://calendar.app.google/PaVwZ8ZxYX5SVBJT8', '_blank');
+                        window.open("https://calendar.app.google/PaVwZ8ZxYX5SVBJT8", "_blank");
                         setMobileMenuOpen(false);
                       }}
                     >
@@ -103,16 +139,73 @@ const AIImplementationMakeWorkLighter = () => {
               Implementation
             </Badge>
             <h1 className="text-4xl md:text-5xl font-bold mb-8 text-foreground">
-              Build AI Systems That Make Work Lighter
+              The future of work isn't automated. It's augmented.
             </h1>
-            <p className="text-lg text-muted-foreground mb-12">
-              Full article coming soon. This page will share a deep-dive anchor post on this topic.
+            <p className="text-lg text-muted-foreground mb-12 leading-relaxed space-y-6">
+              <p>
+                A lot of leaders ask for AI tools. What they actually need are AI systems. Tools help one person.
+                Systems change how the whole team works.
+              </p>
+
+              <p>
+                When I run implementation work, I start with one rule. AI shouldn’t feel like extra effort. It should
+                remove friction in a steady, almost boring way.
+              </p>
+
+              <p>Here’s what that looks like.</p>
+
+              <h3 className="font-semibold text-xl">1. Build once, then use everywhere</h3>
+
+              <p>
+                Most organisations produce the same emails, proposals, reports, and slides every week. AI systems turn
+                this repeat work into a shared library everyone can draw from.
+              </p>
+
+              <ul className="list-disc list-inside space-y-1">
+                <li>Reusable templates.</li>
+                <li>Automatic drafts.</li>
+                <li>Knowledge that keeps itself up to date.</li>
+                <li>Workflows that run without someone watching over them.</li>
+              </ul>
+
+              <p>
+                That’s where the real time savings sit, not in one clever prompt but in a system that catches repeat
+                tasks before they pile up.
+              </p>
+
+              <h3 className="font-semibold text-xl">2. Give people abilities they didn’t have before</h3>
+
+              <p>
+                AI should do simple but heavy jobs like summarising meetings, turning a rough note into a clear plan,
+                checking data, or translating complex rules into plain steps. It should draft the first 80 percent so
+                people can focus their energy on the parts that matter.
+              </p>
+
+              <p>
+                This work isn’t about fancy tech. It’s about helping people move through their day with less strain.
+              </p>
+
+              <h3 className="font-semibold text-xl">3. Keep it simple or nobody will use it</h3>
+
+              <p>
+                The best systems sit inside the work people already do. No new logins. No messy dashboards. No pile of
+                tools to juggle.
+              </p>
+
+              <p>A good AI system feels light. Always there. Never in the way.</p>
+
+              <h3 className="font-semibold text-xl">Final thought</h3>
+
+              <p>
+                AI should make work quieter, not louder. The real change comes when systems support people rather than
+                pull them off course.
+              </p>
+
+              <p>Build the workflows once. Grow a team that has no interest in going back.</p>
             </p>
-            
+
             {/* Content area for future article */}
-            <div className="prose prose-lg max-w-none dark:prose-invert">
-              {/* Article content will go here */}
-            </div>
+            <div className="prose prose-lg max-w-none dark:prose-invert">{/* Article content will go here */}</div>
           </div>
         </div>
       </main>
@@ -123,11 +216,11 @@ const AIImplementationMakeWorkLighter = () => {
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-4">
             Let's talk about how AI can work for you
           </h2>
-          <p className="text-lg text-muted-foreground mb-8">
-            Ready to explore your next step? Contact us now.
-          </p>
+          <p className="text-lg text-muted-foreground mb-8">Ready to explore your next step? Contact us now.</p>
           <Button size="lg" asChild>
-            <a href="https://calendar.app.google/KxxmEvbPQfzcdLFP7" target="_blank" rel="noopener noreferrer">Get in touch</a>
+            <a href="https://calendar.app.google/KxxmEvbPQfzcdLFP7" target="_blank" rel="noopener noreferrer">
+              Get in touch
+            </a>
           </Button>
         </div>
       </section>
@@ -142,41 +235,93 @@ const AIImplementationMakeWorkLighter = () => {
                 <div className="text-2xl font-bold">McCarthy Solutions</div>
               </div>
               <p className="text-isabeline/80">AI consultant for consultants and SME leaders.</p>
-              <p className="text-isabeline/60 italic">"The illiterate of the 21st century will be those who cannot learn, unlearn, and relearn." - Alvin Toffler</p>
+              <p className="text-isabeline/60 italic">
+                "The illiterate of the 21st century will be those who cannot learn, unlearn, and relearn." - Alvin
+                Toffler
+              </p>
             </div>
 
             <div>
               <h3 className="text-lg font-semibold mb-4">Services</h3>
               <ul className="space-y-2">
-                <li><Link to="/#services" className="text-isabeline/80 hover:text-isabeline transition-colors">AI Training</Link></li>
-                <li><Link to="/#services" className="text-isabeline/80 hover:text-isabeline transition-colors">Strategy & Advisory</Link></li>
-                <li><Link to="/#services" className="text-isabeline/80 hover:text-isabeline transition-colors">Implementation</Link></li>
+                <li>
+                  <Link to="/#services" className="text-isabeline/80 hover:text-isabeline transition-colors">
+                    AI Training
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/#services" className="text-isabeline/80 hover:text-isabeline transition-colors">
+                    Strategy & Advisory
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/#services" className="text-isabeline/80 hover:text-isabeline transition-colors">
+                    Implementation
+                  </Link>
+                </li>
               </ul>
             </div>
 
             <div>
               <h3 className="text-lg font-semibold mb-4">Company</h3>
               <ul className="space-y-2">
-                <li><Link to="/#process" className="text-isabeline/80 hover:text-isabeline transition-colors">Process</Link></li>
-                <li><Link to="/#results" className="text-isabeline/80 hover:text-isabeline transition-colors">Results</Link></li>
-                <li><Link to="/#testimonials" className="text-isabeline/80 hover:text-isabeline transition-colors">Testimonials</Link></li>
-                <li><Link to="/case-studies" className="text-isabeline/80 hover:text-isabeline transition-colors">Case Studies</Link></li>
+                <li>
+                  <Link to="/#process" className="text-isabeline/80 hover:text-isabeline transition-colors">
+                    Process
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/#results" className="text-isabeline/80 hover:text-isabeline transition-colors">
+                    Results
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/#testimonials" className="text-isabeline/80 hover:text-isabeline transition-colors">
+                    Testimonials
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/case-studies" className="text-isabeline/80 hover:text-isabeline transition-colors">
+                    Case Studies
+                  </Link>
+                </li>
               </ul>
             </div>
 
             <div>
               <h3 className="text-lg font-semibold mb-4">Legal</h3>
               <ul className="space-y-2">
-                <li><Link to="/legal#privacy" className="text-isabeline/80 hover:text-isabeline transition-colors">Privacy Policy</Link></li>
-                <li><Link to="/legal#terms" className="text-isabeline/80 hover:text-isabeline transition-colors">Terms of Service</Link></li>
-                <li><Link to="/legal#cookies" className="text-isabeline/80 hover:text-isabeline transition-colors">Cookie Policy</Link></li>
-                <li><Link to="/ai-transparency" className="text-isabeline/80 hover:text-isabeline transition-colors">AI Transparency Notice</Link></li>
+                <li>
+                  <Link to="/legal#privacy" className="text-isabeline/80 hover:text-isabeline transition-colors">
+                    Privacy Policy
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/legal#terms" className="text-isabeline/80 hover:text-isabeline transition-colors">
+                    Terms of Service
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/legal#cookies" className="text-isabeline/80 hover:text-isabeline transition-colors">
+                    Cookie Policy
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/ai-transparency" className="text-isabeline/80 hover:text-isabeline transition-colors">
+                    AI Transparency Notice
+                  </Link>
+                </li>
               </ul>
             </div>
           </div>
 
           <div className="border-t border-isabeline/20 pt-8 text-center text-isabeline/60">
-            <p>© 2025 McCarthy Solutions. All rights reserved. Built with 💚 in Dublin. <a href="mailto:hello@mccarthysolutions.ie" className="hover:text-isabeline transition-colors underline">Get in touch</a></p>
+            <p>
+              © 2025 McCarthy Solutions. All rights reserved. Built with 💚 in Dublin.{" "}
+              <a href="mailto:hello@mccarthysolutions.ie" className="hover:text-isabeline transition-colors underline">
+                Get in touch
+              </a>
+            </p>
           </div>
         </div>
       </footer>
