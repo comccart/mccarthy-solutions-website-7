@@ -91,12 +91,14 @@ const AITrainingLeadershipSkill = () => {
       <main className="pt-24 pb-16">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto">
-            <Link to="/blog">
-              <Button variant="ghost" className="mb-8">
-                <ArrowLeft className="mr-2 h-4 w-4" />
-                Back to Blog
-              </Button>
-            </Link>
+            <div className="mb-6">
+              <Link to="/blog">
+                <Button variant="ghost" className="mb-4">
+                  <ArrowLeft className="mr-2 h-4 w-4" />
+                  Back to Blog
+                </Button>
+              </Link>
+            </div>
             <Badge variant="secondary" className="mb-6">
               Training
             </Badge>
