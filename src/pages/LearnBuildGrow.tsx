@@ -148,7 +148,7 @@ const LearnBuildGrow = () => {
                     Implementation
                   </Badge>
                   <CardTitle className="text-2xl text-foreground">
-                    Build AI Systems that make work lighter
+                    The future of work isn't automated. It's augmented.
                   </CardTitle>
                   <CardDescription className="text-base">
                     Most organisations do not need more tools. They need simple systems that fit into everyday work. This article explains how to design AI workflows that remove friction and support people instead of replacing them.
